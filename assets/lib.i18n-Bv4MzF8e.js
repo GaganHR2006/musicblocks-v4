@@ -1,0 +1,2 @@
+import{_ as a,a as r}from"./dynamic-import-helper-AgYhqkpK.js";let n={},i={};async function s(_="en"){i=(await a(async()=>{const{default:t}=await import("./lang.en-CJsusby0.js");return{default:t}},[])).default,n=_==="en"?{...i}:(await r(Object.assign({"../lang/en.ts":()=>a(()=>import("./lang.en-CJsusby0.js"),[]),"../lang/es.ts":()=>a(()=>import("./lang.es-B2vZfnJx.js"),[])}),`../lang/${_}.ts`,3)).default}function o(_){return Object.fromEntries(_.map(t=>[t,t in n?n[t]:t in i?i[t]:t]))}export{o as getStrings,s as importStrings};
+//# sourceMappingURL=lib.i18n-Bv4MzF8e.js.map
